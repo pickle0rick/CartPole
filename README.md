@@ -6,7 +6,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
 class CartPoleQLearningAgent:
     def __init__(self,
                  learning_rate=1.0,
@@ -97,7 +96,6 @@ class CartPoleQLearningAgent:
         self.state = next_state
         self.action = next_action
         return next_action
-
 
 class EpisodeHistory:
     def __init__(self,
